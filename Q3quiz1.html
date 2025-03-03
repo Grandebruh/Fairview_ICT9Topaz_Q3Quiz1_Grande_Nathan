@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q3Quiz</title>
+</head>
+<body>
+     <center>
+     <h1>If a = 20 and b = 5, compute for the following</h1>
+
+     <h2>Arithmetic Operator</h2>
+      <p> a. Sum = </p>
+      <p id="sum"></p>
+      <p> b. Difference = </p>
+       <p id="dif"></p>
+
+       <button type="Submit" class="btn btn-danger" onclick="var a = 20; b = 5;document.getElementById('sum').innerHTML= a+b; document.getElementById('dif').innerHTML= a-b;  ">Answer</button>
+     
+
+     <h2>Comparison Operator</h2>
+      <p> a. A is greater than B = </p>
+      <p id="gre"></p>
+      <p> b. B is greater than A = </p>
+       <p id="les"></p>
+
+       <button type="Submit" class="btn btn-danger" onclick="var a = 20; b = 5;document.getElementById('gre').innerHTML= a>b; document.getElementById('les').innerHTML= a<b;  ">Answer</button>
+     
+     <h2>Logical Operator</h2>
+      <p> a. (a <= b) && (a >= b) = </p>
+      <p id="wha"></p>
+      <p> b. (a != b) || (a == b) = </p>
+      <p id="exc"></p>
+
+       <button type="Submit" class="btn btn-danger" onclick="var a = 20; b = 5;document.getElementById('wha').innerHTML= a<b; document.getElementById('exc').innerHTML= a>b;  ">Answer</button>
+</body>
+</html>
